@@ -5,15 +5,8 @@ detailed instructions on how to work with the provided file and place the code i
 
 Open a text editor such as Notepad or any other text editor.
 
-Copy the following code and paste it into the editor:
+Copy the following code 
 
-bash
-Copy
-@echo off
-systeminfo | findstr /C:"Host Name" /C:"OS Name" /C:"OS Version" /C:"System Manufacturer" /C:"System Model" /C:"Processor" /C:"Total Physical Memory" /C:"Virtual Memory" /C:"Available Physical Memory" /C:"Available Virtual Memory" /C:"BIOS Version" /C:"Windows Directory" /C:"System Directory"
-echo.
-wmic path win32_VideoController get Description
-pause
 Save the file with a batch file extension ".bat", such as "system_info.bat".
 
 Run the file by double-clicking on it.
